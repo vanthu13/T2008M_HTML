@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <link rel="stylesheet" href="../css/ss5.css"/>
+</head>
+<body>
+<div class="survey">
+    <form action="#" method="get">
+        <input class="form-control" name="full name" type="text" placeholder="full name" required/>
+        <input class="form-control" name="full name" type="email" placeholder="email" required/>
+        <input class="form-control" name="password" type="password" placeholder="password"required/>
+        <input class="form-control" name="age" type="number" placeholder="Age"required/>
+        <input class="form-control" name="birthday" type="date" placeholder="Birthday"required/>
+        <input class="form-control" name="mycolor" type="color" placeholder="My color"required/>
+
+        <input name="price_ranger" type="range" min="0" max="100"required/>
+
+        <p>Gioi Tinh</p>
+        <label><input name="sex" value="nam" checked type="radio"/>Nam</label>
+        <label><input name="sex" value="nu" type="radio"/>Nu</label>
+        <label><input name="sex" value="khac" type="radio"/>Khac</label>
+        <p>
+            <label><input required type="checkbox" checked name="confirm"/>Toi da doc</label>
+        </p>
+        <p>Thanh Pho Sinh Song</p>
+        <select name="city">
+            <option value="hn">Ha Noi</option>
+            <option value="sg">Sai Gon</option>
+        </select>
+        <p>Mo Ta</p>
+        <textarea name="comment"  placeholder="viet nhan xet cua ban"></textarea><br>
+        <button type="submit">Gui</button>
+
+    </form>
+</div>
+</body>
+</html>
