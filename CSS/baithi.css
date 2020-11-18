@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0000A4;
+    line-height: 1.5;
+    font-weight: 400;
+}
+ul li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    color: white;
+}
+.vanthu{
+    margin-left: 430px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #CEEAEE;
+    font-family: Verdana;
+}
+.nav img{
+    text-align: center;
+    border: 10px solid white;
+    margin-top: 30px;
+    margin-left: 250px
+}
+.section13{
+    background-color: #ffffff;
+    margin-top: 30px;
+    width: 650px;
+    height: 325px;
+
+}
+
+
